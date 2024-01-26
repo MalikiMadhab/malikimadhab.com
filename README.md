@@ -15,7 +15,7 @@
     <li>Subscribe to our YouTube channel: <a href="https://www.youtube.com/@maliki.madhab">https://www.youtube.com/@maliki.madhab</a></li>
 </ul>
 <blockquote>
-    <p>We are an affiliate of Diraayah Center for Research & Innovation (<strong>Diraaya.com</strong>)</p>
+    <p>We (<strong><a href="diraayah.com">Diraaya.com</a></strong>) are an affiliate of Diraayah Center for Research & Innovation</p>
 </blockquote>
 
 </body>
