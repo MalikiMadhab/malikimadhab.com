@@ -12,7 +12,8 @@ CONTRIBUTORS = ["Sadi", "Rishan"]
 @app.route("/")
 def hello_world():
     try:
-        readme_path = str(PROJECT_PATH / "main" / "README.md")
+        readme_path = str(PROJECT_PATH / "README.md")
+        print(readme_path)
         if os.path.exists(readme_path):
             with open(readme_path, "r") as file:
                 markdown_content = file.read()
@@ -33,4 +34,4 @@ def hello_world():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0")
+    app.run(debug=True, host="0.0.0.0", port=5000)
